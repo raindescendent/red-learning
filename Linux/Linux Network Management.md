@@ -1,5 +1,36 @@
-ifconfig 
->> Informacion sobre las redes activas en el sistema. (Type of network, IP, HWAddress (MAC), Netmask, Broadcast Address, Loopback Address (localhost), NIC)
+
+**ifconfig** 
+*Network & Subnets Data*
+
+"IP Address, MAC Address (ether, hwaddress), Netmask, Broadcast Address, Loopback Address (localhost), MTU (Maximum Transmission Unit)." 
+
+IP Address: 
+
+32-bits unique number which represent the host in the network or subnet.
+
+
+Netmask:
+
+32-bit binary mask that divides an IP address into subnets. It is also used to determine the class (A, B & C) and range of IP addresses.
+
+
+MAC Address: 
+
+48-bits unique number which serve as identifier assigned to each Network Interface Controller (NIC) & Network Devices. It's also called 'physical address'. 
+
+
+Broadcast Address: 
+
+Special IP Address reserved for a multipoint connection reaching all the hosts in the network without knowing the recipient addresses. 
+
+
+Loopback: 
+
+Virtual network interface that the host uses to communicate with 'itself'. It is used for diagnostics and troubleshooting, and using the servers running on the local machine.
+
+MTU: 
+
+Maximum Transmission Unit defines the maximum size in bytes of the 'largest' data packet which is transmitted or received through the network.
 
 >> Permite modificar manualmente IP, MAC, Netmask, Broadcast Address
 
